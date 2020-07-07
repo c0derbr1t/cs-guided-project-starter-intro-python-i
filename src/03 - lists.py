@@ -14,14 +14,19 @@ mylist = []
 mylist.append(1) # [1]
 mylist.append(2) # [1,2]
 mylist.append(3) # [1,2,3]
+print("mylist[0]: ")
 print(mylist[0])  # prints 1
+print("mylist[1]: ")
 print(mylist[1])  # prints 2
+print("mylist[0]: ")
 print(mylist[2])  # prints 3
 
 # prints out 1,2,3
+print("for loop: ")
 for item in mylist:
     print(item)
 
 # 2. If index doesn't exist, an exception is raised
+print("when item doesn't exist: ")
 mylist = [1,2,3]
 print(mylist[10])

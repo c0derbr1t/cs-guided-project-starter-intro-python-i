@@ -28,6 +28,7 @@ astring = "Hello world!"
 print(astring[3:7])
 
 # 6. [start:stop:step]
+# 2 would be every 2nd item, like 3 & 5
 astring = "Hello world!"
 print(astring[3:7:2])
 
@@ -55,26 +56,27 @@ YOU DO
 5 minute timer
 """
 # assign the string "Strings are awesome!" to a variable
-
+awesome = "Strings are awesome!"
 # print the length of the string
-
+print(len(awesome))
 # print the first occurrence of "a"
-
+print(awesome.index('a'))
 # print the count of the number of "a"s in the string
-
+print(awesome.count('a'))
 # print the first five characters
-
+print(awesome[:5])
 # print the last five characters in reverse
-
+print(awesome[:-6:-1])
 # print the 17th character
-
+print(awesome[17:18])
 # print all the odd indexes
-
+print(awesome[::2])
 # print the string in all uppercase
-
+print(awesome.upper())
 # print the string in all lowercase
-
+print(awesome.lower())
 # check that the string starts with "S" and ends with "!"
-
+print(awesome.startswith("S"))
+print(awesome.endswith("!"))
 # split the string on the spaces
-
+print(awesome.split(" "))

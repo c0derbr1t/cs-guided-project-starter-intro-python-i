@@ -7,6 +7,11 @@ String Formatting
 enclosed in a "tuple", together with a format string,
 which contains normal text together with "argument specifiers",
 special symbols like "%s" and "%d".
+
+%s -> string   ('31')
+%d -> int   (31)
+%f -> float   (31.0)
+%.3f -> # of digits  (31.000)
 """
 # This prints out "Hello, John!"
 name = "John"

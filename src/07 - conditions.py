@@ -12,16 +12,16 @@ print(x < 3)  # prints out True
 name = "Sean"
 age = 31
 if name == "Matt" and age == 31:
-    print("Your name is Matt, and you are also 31 years old.")
+    print("Your name is Matt, and you are also 31 years old.") # does not print
 
 if name == "Matt" or name == "Sean":
-    print("Your name is either Matt or Sean.")
+    print("Your name is either Matt or Sean.") # prints
 
 # 3. "in"
 my_name = "Beej"
 names = ["Matt", "Sean"]
 if my_name in names:
-    print("Your name is either Matt or Sean.")
+    print("Your name is either Matt or Sean.") # does not print
 
 # 4. "if", "elif", "else"
 statement = False
@@ -47,16 +47,16 @@ print(not False)  # Prints out True
 print((not False) == (False))  # Prints out False
 
 
-"""
-YOU DO
-3 minute timer
-"""
-# Modify the supplied code so that all of the statements evaluate to True
-# change this code
-number = 10
-second_number = 10
-first_array = []
-second_array = [1,2,3]
+# """
+print('YOU DO')
+# 3 minute timer
+# """
+# # Modify the supplied code so that all of the statements evaluate to True
+# # change this code
+number = 16
+second_number = 10 == 2
+first_array = [1] * 3
+second_array = [1, 2]
 
 print(bool(number > 15))
 
